@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+#head {
+    background-image: url("../img/main_resize.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+nav {
+    font-size: 15px;
+    font-weight: 550;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 25px;
+    height: 75px;
+}
+
+header {
+    font-size: 20px;
+    color: white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    height: 400px;
+    font-weight: bold;
+}
+
+strong {
+font-size: 40px;
+}
+
+#button {
+    background-color: #5A5A5A;
+    border: none;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    margin: 10px 2px;
+    border-radius: 12px;
+}
+
+section {
+    background-color: aliceblue;
+    margin: 75px 100px;
+    height: 500px;
+}
+
+#main_content {
+    background-color: khaki;
+    height: 200px;
+    margin-bottom: 75px;
+    text-align: center;
+    padding: 0px 330px;
+}
+h1 {
+    font-size: 20px;
+}
+
+.column-container {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display:flex;
+    background-color: orange;
+    border: 2px solid black;
+    width: 48%;
+}
+.img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    height: 150px;
+    background-color: deepskyblue;
+}
+
